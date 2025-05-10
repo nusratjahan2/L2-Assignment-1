@@ -1,4 +1,3 @@
-// problem - 1
 
 function formatString(input: string, toUpper?: boolean): string {
     if (typeof toUpper === "boolean") {
@@ -15,7 +14,6 @@ function formatString(input: string, toUpper?: boolean): string {
 //     return rating >= 4 ? { rating } : null;
 // }]
 
-// Problem-3
 //function concatenateArrays<T>(...arrays: T[][]): T[]
 
 function concatenateArrays<T>(...arrays: T[][]): T[] {
@@ -27,7 +25,6 @@ function concatenateArrays<T>(...arrays: T[][]): T[] {
 
 console.log(concatenateArrays(["a", "b"], ["c"], ["d", "p"]));
 
-//Problem-4
 
 class Vehicle {
     constructor(private make: string, private year: number) {
@@ -52,7 +49,7 @@ const myCar = new Car("Toyota", 2020, "Corolla");
 console.log(myCar.getInfo())  // Output: "Make: Toyota, Year: 2020"
 console.log(myCar.getModel()) // Output: "Model: Corolla"
 
-//Problem-5
+
 function processValue(value: string | number): number {
     if (typeof value === "string") {
         return value.length;
